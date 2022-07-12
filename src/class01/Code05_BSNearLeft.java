@@ -3,6 +3,31 @@ package class01;
 import java.util.Arrays;
 
 public class Code05_BSNearLeft {
+	//注意位运算！！
+	public static int nearestIndexMy(int[] arr ,int value){
+		int L = 0;
+		int R = arr.length -1 ;
+		int  mid = 0;
+		int index =-1;
+		while (L<=R){
+			mid = L + ((R - L)>>1);
+			if (arr[mid] >= value){
+				index = mid;
+				R = mid -1 ;
+			}else {
+				 L = mid + 1;
+			}
+		}
+		return index;
+	}
+
+	public static int find(int[] arr, int value, int mid) {
+		while ( arr[mid] == value){
+			mid--;
+		}
+		return mid;
+	}
+
 
 	// 在arr上，找满足>=value的最左位置
 	public static int nearestIndex(int[] arr, int value) {
@@ -60,10 +85,10 @@ public class Code05_BSNearLeft {
 			int[] arr = generateRandomArray(maxSize, maxValue);
 			Arrays.sort(arr);
 			int value = (int) ((maxValue + 1) * Math.random()) - (int) (maxValue * Math.random());
-			if (test(arr, value) != nearestIndex(arr, value)) {
+			if (nearestIndexMy(arr, value) != nearestIndex(arr, value)) {
 				printArray(arr);
 				System.out.println(value);
-				System.out.println(test(arr, value));
+				System.out.println(nearestIndexMy(arr, value));
 				System.out.println(nearestIndex(arr, value));
 				succeed = false;
 				break;

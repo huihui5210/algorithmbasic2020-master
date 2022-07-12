@@ -4,6 +4,18 @@ import java.util.Arrays;
 
 public class Code03_InsertionSort {
 
+	public static void insertionSortMy(int[] arr){
+		if (arr == null || arr.length <2){
+			return;
+		}
+		for (int i = 1 ; i< arr.length ; i++){
+			//不满住 说明已经到了改到的位置
+			//注意短路与顺序！
+			for (int  j = i-1 ; j>=0&&arr[j] > arr[j+1]  ;j--) {
+				swap(arr, j, j + 1);
+			}
+		}
+	}
 	public static void insertionSort(int[] arr) {
 		if (arr == null || arr.length < 2) {
 			return;
@@ -85,7 +97,7 @@ public class Code03_InsertionSort {
 	// for test
 	public static void main(String[] args) {
 		int testTime = 500000;
-		int maxSize = 100; // 随机数组的长度0～100
+		int maxSize = 10; // 随机数组的长度0～100
 		int maxValue = 100;// 值：-100～100
 		boolean succeed = true;
 		for (int i = 0; i < testTime; i++) {
@@ -93,13 +105,17 @@ public class Code03_InsertionSort {
 			int[] arr1 = copyArray(arr);
 			int[] arr2 = copyArray(arr);
 			insertionSort(arr1);
-			comparator(arr2);
+			insertionSortMy(arr2);
 			if (!isEqual(arr1, arr2)) {
 				// 打印arr1
 				// 打印arr2
 				succeed = false;
-				for (int j = 0; j < arr.length; j++) {
-					System.out.print(arr[j] + " ");
+				for (int j = 0; j < arr1.length; j++) {
+					System.out.print(arr1[j] + " ");
+				}
+				System.out.println();
+				for (int j = 0; j < arr2.length; j++) {
+					System.out.print(arr2[j] + " ");
 				}
 				System.out.println();
 				break;
@@ -109,7 +125,7 @@ public class Code03_InsertionSort {
 
 		int[] arr = generateRandomArray(maxSize, maxValue);
 		printArray(arr);
-		insertionSort(arr);
+		insertionSortMy(arr);
 		printArray(arr);
 	}
 

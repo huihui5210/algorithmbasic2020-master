@@ -4,6 +4,20 @@ import java.util.Arrays;
 
 public class Code02_BubbleSort {
 
+	public static void  bubbleSortMy(int[] arr){
+		if (arr == null || arr.length<2){
+			return;
+		}
+		int  length = arr.length;
+		for (int i=length-1; i>=1 ;i--){
+			for (int j = i ; j>=1 ;j--){
+				if (arr[j] < arr[j-1]){
+					swap(arr,j,j-1);
+				}
+			}
+		}
+		return;
+	}
 	public static void bubbleSort(int[] arr) {
 		if (arr == null || arr.length < 2) {
 			return;
@@ -93,7 +107,8 @@ public class Code02_BubbleSort {
 			int[] arr1 = generateRandomArray(maxSize, maxValue);
 			int[] arr2 = copyArray(arr1);
 			bubbleSort(arr1);
-			comparator(arr2);
+//			comparator(arr2);
+			bubbleSortMy(arr2);
 			if (!isEqual(arr1, arr2)) {
 				succeed = false;
 				break;

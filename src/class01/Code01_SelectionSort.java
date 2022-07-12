@@ -7,7 +7,25 @@ import java.util.concurrent.ConcurrentHashMap;
 public class Code01_SelectionSort {
 
 
+	public static void selectionSortMy(int[] arr){
+		if (arr == null || arr.length<2){
+			return ;
+		}
+		int length = arr.length;
 
+		for (int i = 0 ; i <length; i++){
+			int  min = arr[i];
+			int minIndex = i;
+			for (int j = i ; j < length ;j++){
+				if( arr[j] < min){
+					min = arr[j];
+					minIndex = j;
+				}
+			}
+			swap(arr,i,minIndex);
+		}
+		return ;
+	}
 
 
 
@@ -104,8 +122,9 @@ public class Code01_SelectionSort {
 		for (int i = 0; i < testTime; i++) {
 			int[] arr1 = generateRandomArray(maxSize, maxValue);
 			int[] arr2 = copyArray(arr1);
+		    selectionSortMy(arr2);
 			selectionSort(arr1);
-			comparator(arr2);
+//			comparator(arr2);
 			if (!isEqual(arr1, arr2)) {
 				succeed = false;
 				printArray(arr1);
@@ -117,7 +136,7 @@ public class Code01_SelectionSort {
 
 		int[] arr = generateRandomArray(maxSize, maxValue);
 		printArray(arr);
-		selectionSort(arr);
+		selectionSortMy(arr);
 		printArray(arr);
 	}
 

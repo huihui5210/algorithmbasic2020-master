@@ -3,6 +3,33 @@ package class01;
 import java.util.Arrays;
 
 public class Code05_BSNearRight {
+	public static int nearestIndexMy(int[] arr , int value){
+		int L = 0;
+		int R = arr.length-1;
+		int index = -1;
+		int mid = 0;
+		//只有一个时也能二分！
+		while (L<=R){
+			mid = L + ((R-L)>>1);
+			if (arr[mid] <= value){
+				index = mid;
+				L = mid +1;
+			}else{
+				R = mid - 1;
+			}
+		}
+		//大于等于2个时才能二分！ 返回时需要处理！
+//		while (L<R){
+//			mid = L + ((R-L)>>1);
+//			if (arr[mid] <= value){
+//				index = mid;
+//				L = mid +1;
+//			}else{
+//				R = mid - 1;
+//			}
+//		}
+		return index;
+	}
 
 	// 在arr上，找满足<=value的最右位置
 	public static int nearestIndex(int[] arr, int value) {
@@ -60,10 +87,10 @@ public class Code05_BSNearRight {
 			int[] arr = generateRandomArray(maxSize, maxValue);
 			Arrays.sort(arr);
 			int value = (int) ((maxValue + 1) * Math.random()) - (int) (maxValue * Math.random());
-			if (test(arr, value) != nearestIndex(arr, value)) {
+			if (nearestIndexMy(arr, value) != nearestIndex(arr, value)) {
 				printArray(arr);
 				System.out.println(value);
-				System.out.println(test(arr, value));
+				System.out.println(nearestIndexMy(arr, value));
 				System.out.println(nearestIndex(arr, value));
 				succeed = false;
 				break;

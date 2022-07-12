@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a634a25-e688-48c9-bc02-72d8ec08aedf" name="Default Changelist" comment="" />
+    <list default="true" id="9a634a25-e688-48c9-bc02-72d8ec08aedf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/out/production/algorithmbasic2020-master/class01/Code01_SelectionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithmbasic2020-master/class01/Code01_SelectionSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithmbasic2020-master/class01/Code02_BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithmbasic2020-master/class01/Code02_BubbleSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithmbasic2020-master/class01/Code03_InsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithmbasic2020-master/class01/Code03_InsertionSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithmbasic2020-master/class01/Code04_BSExist.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithmbasic2020-master/class01/Code04_BSExist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithmbasic2020-master/class01/Code05_BSNearLeft.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithmbasic2020-master/class01/Code05_BSNearLeft.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithmbasic2020-master/class01/Code05_BSNearRight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithmbasic2020-master/class01/Code05_BSNearRight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithmbasic2020-master/class01/Code06_BSAwesome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithmbasic2020-master/class01/Code06_BSAwesome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.ignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/.ignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class01/Code01_SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/class01/Code01_SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class01/Code02_BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/class01/Code02_BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class01/Code03_InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/class01/Code03_InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class01/Code04_BSExist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/class01/Code04_BSExist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class01/Code05_BSNearLeft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/class01/Code05_BSNearLeft.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class01/Code05_BSNearRight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/class01/Code05_BSNearRight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class01/Code06_BSAwesome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/class01/Code06_BSAwesome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class01/Code07_printNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/class01/Code07_printNode.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,80 +29,11 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="algorithmbasic2020-master" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/class40/test04.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/class40/test01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="49" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/class14/Code05_UnionFind.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/class15/Code02_NumberOfIslands.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/class15/Code03_NumberOfIslandsII.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/class15/Code01_FriendCircles.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/class14/practiceBestArrgane.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/class14/practiceLessMoneySplitGold.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" selection-start-line="5" selection-end-line="23" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/lang/Math.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -148,7 +96,7 @@
         <entry file="file://$PROJECT_DIR$/src/class08/tireTree.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -156,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/class01/Code01_SelectionSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="3672">
+              <caret line="140" column="5" selection-start-line="61" selection-end-line="140" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -165,15 +113,87 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/class01/Code02_BubbleSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2916">
+              <caret line="110" column="29" selection-start-line="110" selection-start-column="29" selection-end-line="110" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/class01/Code03_InsertionSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+              <folding>
+                <element signature="e#830#831#0" expanded="true" />
+                <element signature="e#853#854#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/class01/Code04_BSExist.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1701">
+              <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/class01/Code05_BSNearLeft.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/class01/Code05_BSNearRight.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2187">
+              <caret line="81" selection-start-line="81" selection-end-line="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/class01/Code06_BSAwesome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-218">
+              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/.ignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/class01/Code07_printNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-              <folding>
-                <element signature="e#129#130#0" expanded="true" />
-                <element signature="e#152#153#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="351">
+              <caret line="15" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/LinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11961">
+              <caret line="476" column="18" selection-start-line="476" selection-start-column="18" selection-end-line="476" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -221,16 +241,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/class06/Code01_Comparator.java" />
-        <option value="$PROJECT_DIR$/src/class07/Practice01.java" />
-        <option value="$PROJECT_DIR$/src/class07/Code01_CoverMax.java" />
-        <option value="$PROJECT_DIR$/src/JavaTest/A.java" />
-        <option value="$PROJECT_DIR$/src/JavaTest/AA.java" />
-        <option value="$PROJECT_DIR$/src/JavaTest/interfaceTest.java" />
-        <option value="$PROJECT_DIR$/src/class05/Code02_PartitionAndQuickSort.java" />
         <option value="$PROJECT_DIR$/src/class08/Code02_TrieTree.java" />
         <option value="$PROJECT_DIR$/src/class11/practice.java" />
         <option value="$PROJECT_DIR$/src/class13/Code05_LowestLexicography.java" />
@@ -273,22 +289,30 @@
         <option value="$PROJECT_DIR$/src/class40/test04.java" />
         <option value="$PROJECT_DIR$/src/class08/test.java" />
         <option value="$PROJECT_DIR$/src/class08/tireTree.java" />
-        <option value="$PROJECT_DIR$/src/class01/Code01_SelectionSort.java" />
+        <option value="$PROJECT_DIR$/src/.ignore" />
         <option value="$PROJECT_DIR$/src/class01/Code07_printNode.java" />
+        <option value="$PROJECT_DIR$/src/class01/Code01_SelectionSort.java" />
+        <option value="$PROJECT_DIR$/src/class01/Code02_BubbleSort.java" />
+        <option value="$PROJECT_DIR$/src/class01/Code03_InsertionSort.java" />
+        <option value="$PROJECT_DIR$/src/class01/Code04_BSExist.java" />
+        <option value="$PROJECT_DIR$/src/class01/Code05_BSNearLeft.java" />
+        <option value="$PROJECT_DIR$/src/class01/Code05_BSNearRight.java" />
+        <option value="$PROJECT_DIR$/src/class01/Code06_BSAwesome.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="422" />
-    <option name="y" value="257" />
-    <option name="width" value="992" />
-    <option name="height" value="664" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="719" />
+    <option name="width" value="1174" />
+    <option name="height" value="1047" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -305,50 +329,13 @@
               <item name="algorithmbasic2020-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithmbasic2020-master" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="class01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithmbasic2020-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithmbasic2020-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="class09" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithmbasic2020-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithmbasic2020-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="class10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithmbasic2020-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithmbasic2020-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="class36" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithmbasic2020-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithmbasic2020-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="class42" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithmbasic2020-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithmbasic2020-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="class43" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithmbasic2020-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithmbasic2020-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="class44" type="462c0819:PsiDirectoryNode" />
+              <item name="class02" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -375,13 +362,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.tireTree">
-    <configuration name="Code02_LongestSumSubArrayLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="class40.Code02_LongestSumSubArrayLength" />
+  <component name="RunManager" selected="Application.Code06_BSAwesome">
+    <configuration name="Code03_InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="class01.Code03_InsertionSort" />
       <module name="algorithmbasic2020-master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="class40.*" />
+          <option name="PATTERN" value="class01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -389,12 +376,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code03_LongestLessSumSubArrayLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="class40.Code03_LongestLessSumSubArrayLength" />
+    <configuration name="Code04_BSExist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="class01.Code04_BSExist" />
       <module name="algorithmbasic2020-master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="class40.*" />
+          <option name="PATTERN" value="class01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -402,12 +389,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="class08.test" />
+    <configuration name="Code05_BSNearLeft" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="class01.Code05_BSNearLeft" />
       <module name="algorithmbasic2020-master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="class08.*" />
+          <option name="PATTERN" value="class01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -415,12 +402,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="class40.test03" />
+    <configuration name="Code05_BSNearRight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="class01.Code05_BSNearRight" />
       <module name="algorithmbasic2020-master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="class40.*" />
+          <option name="PATTERN" value="class01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -428,12 +415,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tireTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="class08.tireTree" />
+    <configuration name="Code06_BSAwesome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="class01.Code06_BSAwesome" />
       <module name="algorithmbasic2020-master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="class08.*" />
+          <option name="PATTERN" value="class01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -443,11 +430,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.tireTree" />
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.Code03_LongestLessSumSubArrayLength" />
-        <item itemvalue="Application.test03" />
-        <item itemvalue="Application.Code02_LongestSumSubArrayLength" />
+        <item itemvalue="Application.Code06_BSAwesome" />
+        <item itemvalue="Application.Code05_BSNearRight" />
+        <item itemvalue="Application.Code05_BSNearLeft" />
+        <item itemvalue="Application.Code04_BSExist" />
+        <item itemvalue="Application.Code03_InsertionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -499,12 +486,15 @@
       <workItem from="1631539998600" duration="249000" />
       <workItem from="1632400882947" duration="4326000" />
       <workItem from="1636859199981" duration="76000" />
-      <workItem from="1657270855345" duration="584000" />
+      <workItem from="1657270855345" duration="7042000" />
+      <workItem from="1657336163877" duration="33000" />
+      <workItem from="1657442403544" duration="8218000" />
+      <workItem from="1657511802994" duration="273000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127774000" />
+    <option name="totallyTimeSpent" value="142756000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -516,32 +506,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="719" y="0" width="1174" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.45139664" visible="true" weight="0.21664888" />
-      <window_info id="Structure" order="1" sideWeight="0.54860336" side_tool="true" visible="true" weight="0.21664888" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7211646" visible="true" weight="0.1897482" />
+      <window_info id="Structure" order="1" sideWeight="0.2792642" side_tool="true" weight="0.21664888" />
       <window_info id="设计师" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.2788354" side_tool="true" weight="0.21664888" />
       <window_info id="Designer" order="7" />
       <window_info id="JRebel" order="8" side_tool="true" />
       <window_info anchor="bottom" id="运行" order="0" />
       <window_info anchor="bottom" id="调试" order="1" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" />
-      <window_info anchor="bottom" id="Run" order="4" weight="0.3586592" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.34078214" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.35834268" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.34042552" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="8" weight="0.32960895" />
+      <window_info anchor="bottom" id="TODO" order="8" weight="0.32922733" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.33031675" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32922733" />
       <window_info anchor="bottom" id="JRebel Console" order="14" side_tool="true" />
       <window_info anchor="bottom" id="JRebel Executor" order="15" />
       <window_info anchor="bottom" id="Messages" order="16" weight="0.32960895" />
@@ -655,6 +644,42 @@
           <properties />
           <option name="timeStamp" value="54" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/class01/Code03_InsertionSort.java</url>
+          <line>106</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/class01/Code03_InsertionSort.java</url>
+          <line>107</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/class01/Code04_BSExist.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/class01/Code05_BSNearLeft.java</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/class01/Code05_BSNearLeft.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/class01/Code05_BSNearRight.java</url>
+          <line>92</line>
+          <properties />
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/class05/QuickSort.java</url>
           <line>4</line>
@@ -672,72 +697,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/class19/Code01_Knapsack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2349">
-          <caret line="87" column="1" selection-start-line="87" selection-start-column="1" selection-end-line="87" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/class19/Code03_StickersToSpellWord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/class19/SortString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/class23/Code02_SplitSumClosedSizeHalf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17304">
-          <caret line="656" column="18" selection-start-line="656" selection-start-column="18" selection-end-line="656" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/HashSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3948">
-          <caret line="171" column="14" selection-start-line="171" selection-start-column="14" selection-end-line="171" selection-end-column="14" />
-          <folding>
-            <element signature="e#6484#6485#0" expanded="true" />
-            <element signature="e#6530#6531#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/class23/PraticeSplitNum2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/class24/practiceSliding.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1792">
-          <caret line="64" column="29" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/class21/PracticeCount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2100">
@@ -1026,6 +985,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/class08/tireTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/class01/Code01_SelectionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3672">
+          <caret line="140" column="5" selection-start-line="61" selection-end-line="140" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/class01/Code02_BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2916">
+          <caret line="110" column="29" selection-start-line="110" selection-start-column="29" selection-end-line="110" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/class01/Code03_InsertionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+          <folding>
+            <element signature="e#830#831#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/class01/Code04_BSExist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1701">
+          <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/class01/Code05_BSNearLeft.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/class01/Code05_BSNearRight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2187">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/.ignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/class01/Code07_printNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="15" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11961">
+          <caret line="476" column="18" selection-start-line="476" selection-start-column="18" selection-end-line="476" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/class08/test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -1053,31 +1089,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/class08/tireTree.java">
+    <entry file="file://$PROJECT_DIR$/src/class01/Code06_BSAwesome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/class01/Code01_SelectionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/class01/Code07_printNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#152#153#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-218">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
         </state>
       </provider>
     </entry>
