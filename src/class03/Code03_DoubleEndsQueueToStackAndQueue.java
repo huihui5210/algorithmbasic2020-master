@@ -5,39 +5,34 @@ import java.util.Queue;
 import java.util.Stack;
 
 public class Code03_DoubleEndsQueueToStackAndQueue {
-
+	//互相影响指针地址才会注意顺序，只是修改里面内容不会！
 	public static class Node<T> {
 		public T value;
 		public Node<T> last;
 		public Node<T> next;
-
 		public Node(T data) {
 			value = data;
 		}
 	}
-
-	public static class DoubleEndsQueue<T> {
+	public static class DoubleEndsQueueMy<T> {
 		public Node<T> head;
 		public Node<T> tail;
-
-		public void addFromHead(T value) {
-			Node<T> cur = new Node<T>(value);
-			if (head == null) {
+		public void addFromHead(Node<T> cur){
+			if (head == null){
 				head = cur;
 				tail = cur;
-			} else {
+			}else {
 				cur.next = head;
 				head.last = cur;
 				head = cur;
 			}
 		}
-
-		public void addFromBottom(T value) {
-			Node<T> cur = new Node<T>(value);
-			if (head == null) {
-				head = cur;
-				tail = cur;
-			} else {
+		public void addFromBottom(Node<T> cur){
+			if (head ==null){
+				head =cur;
+				tail =cur;
+			}else{
+				//先后顺序？
 				cur.last = tail;
 				tail.next = cur;
 				tail = cur;
@@ -79,18 +74,83 @@ public class Code03_DoubleEndsQueueToStackAndQueue {
 		public boolean isEmpty() {
 			return head == null;
 		}
+	}
+	public static class DoubleEndsQueue<T> {
+		public Node<T> head;
+		public Node<T> tail;
+
+		public void addFromHead(T value) {
+			Node<T> cur = new Node<T>(value);
+			if (head == null) {
+				head = cur;
+				tail = cur;
+			} else {
+				head.last = cur;
+				cur.next = head;
+				head = cur;
+			}
+		}
+
+		public void addFromBottom(T value) {
+			Node<T> cur = new Node<T>(value);
+			if (head == null) {
+				head = cur;
+				tail = cur;
+			} else {
+				cur.last = tail;
+				tail.next = cur;
+				tail = cur;
+			}
+
+		}
+
+		public T popFromHead() {
+			if (head == null) {
+				return null;
+			}
+			Node<T> cur = head;
+			if (head == tail) {
+				head = null;
+				tail = null;
+			} else {
+				head = head.next;
+				cur.next = null;
+				head.last = null;
+			}
+			return cur.value;
+		}
+
+		public T popFromBottom() {
+			if (head == null) {
+				return null;
+			}
+			Node<T> cur = tail;
+			if (head == tail) {
+				head = null;
+				tail = null;
+			} else {
+				tail = tail.last;
+				tail.next = null;
+				cur.last = null;
+			}
+			return cur.value;
+		}
+
+		public boolean isEmpty() {
+			return head == null;
+		}
 
 	}
 
 	public static class MyStack<T> {
-		private DoubleEndsQueue<T> queue;
+		private DoubleEndsQueueMy<T> queue;
 
 		public MyStack() {
-			queue = new DoubleEndsQueue<T>();
+			queue = new DoubleEndsQueueMy<T>();
 		}
 
 		public void push(T value) {
-			queue.addFromHead(value);
+			queue.addFromHead(new Node(value));
 		}
 
 		public T pop() {

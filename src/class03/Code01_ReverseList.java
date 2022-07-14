@@ -27,6 +27,20 @@ public class Code01_ReverseList {
 	//  head
 	//   a    ->   b    ->  c  ->  null
 	//   c    ->   b    ->  a  ->  null
+
+	public static Node reverseLinkedListMy(Node head){
+		Node cur = head;
+		Node next = null;
+		Node pre = null;
+		while (cur != null){
+			next = cur.next;
+			cur.next = pre;
+			pre = cur;
+			cur = next;
+		}
+			return pre;
+	}
+
 	public static Node reverseLinkedList(Node head) {
 		Node pre = null;
 		Node next = null;
@@ -45,7 +59,7 @@ public class Code01_ReverseList {
 		DoubleNode next = null;
 		while (head != null) {
 			next = head.next;
-			head.next = pre;
+			head.next = pre; //指向同一地址而已，变量间互不影响，除非内部东西变化！
 			head.last = next;
 			pre = head;
 			head = next;
@@ -188,7 +202,7 @@ public class Code01_ReverseList {
 		for (int i = 0; i < testTime; i++) {
 			Node node1 = generateRandomLinkedList(len, value);
 			List<Integer> list1 = getLinkedListOriginOrder(node1);
-			node1 = reverseLinkedList(node1);
+			node1 = reverseLinkedListMy(node1);
 			if (!checkLinkedListReverse(list1, node1)) {
 				System.out.println("Oops1!");
 			}

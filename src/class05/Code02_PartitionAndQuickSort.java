@@ -2,6 +2,44 @@ package class05;
 
 public class Code02_PartitionAndQuickSort {
 
+	public static void netherlandsFlagMy(int[] arr, int L, int R) {
+		if (arr == null || arr.length == 0){
+			return ;
+		}
+		int[] next = new int[2];
+		next =processMy(arr,L,R);
+		netherlandsFlagMy(arr,L,next[0]);
+		netherlandsFlagMy(arr,next[1],R);
+		return ;
+	}
+	//需要之后的位置
+	private static int[] processMy(int[] arr, int L, int R) {
+		if (L>R){
+			return new int[]{-1,-1};
+		}
+		if ( L == R){
+			return new int[]{L,R};
+		}
+		int num = arr[R];
+		int index = 0;
+		int less = -1;
+		int more = arr.length;
+		while (index < more) {
+			if (arr[index] < num) {
+				swap(arr, less + 1, index);
+				index++;
+				less++;
+			} else if (arr[index] == num) {
+				index++;
+			} else {
+				swap(arr, more - 1, index);
+				more--;
+			}
+		}
+		return new int[]{less,more};
+	}
+
+
 	public static void swap(int[] arr, int i, int j) {
 		int tmp = arr[i];
 		arr[i] = arr[j];

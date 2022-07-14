@@ -2,6 +2,54 @@ package class04;
 
 public class Code02_SmallSum {
 
+	public static int mergeSortMy(int[] arr) {
+		if (arr == null || arr.length == 0){
+			return 0;
+		}
+		return processMy(arr,0,arr.length-1);
+	}
+
+	private static int processMy(int[] arr, int L, int R) {
+		if (L==R){
+			return 0;
+		}
+		int mid = L + ((R-L)>>1);
+
+		return	processMy(arr , L , mid)+
+		processMy(arr , mid+1,R)+
+		mergeMy(arr,L,mid,R);
+	}
+
+	private static int mergeMy(int[] arr, int L, int mid, int R) {
+		int[] help = new int[R-L+1];
+		int index = 0;
+		int indexL =L;
+		int indexR =mid+1;
+		int res = 0;
+		while (indexL<=mid && indexR<=R){
+			if (arr[indexL] < arr[indexR]){
+				res += (R -indexR+1)* arr[indexL];}
+			if (arr[indexL] < arr[indexR]){     // 相等情况 右边先取 这样右边剩下的就是大于左边的数
+				help[index++] = arr[indexL++];
+			}else{
+				help[index++] = arr[indexR++];
+			}
+		}
+		while (indexL<=mid){
+			help[index++] = arr[indexL++];
+		}
+		while (indexR<=R){
+			help[index++] = arr[indexR++];
+		}
+		for (int i = 0; i<help.length ;i++){
+			arr[L+i] = help[i];
+		}
+		return res;
+	}
+
+
+
+
 	public static int smallSum(int[] arr) {
 		if (arr == null || arr.length < 2) {
 			return 0;
@@ -119,13 +167,21 @@ public class Code02_SmallSum {
 	// for test
 	public static void main(String[] args) {
 		int testTime = 500000;
-		int maxSize = 100;
-		int maxValue = 100;
+		int maxSize = 5;
+		int maxValue = 10;
 		boolean succeed = true;
 		for (int i = 0; i < testTime; i++) {
 			int[] arr1 = generateRandomArray(maxSize, maxValue);
 			int[] arr2 = copyArray(arr1);
-			if (smallSum(arr1) != comparator(arr2)) {
+//			int[] arr1 = {1  , -5 , 4,1};
+//			int[] arr2 = {1  , -5 , 4,1};
+			printArray(arr1);
+			printArray(arr2);
+			int ans1 =smallSum(arr1);
+			int ans2 =mergeSortMy(arr2);
+			if ( ans1!= ans2) {
+				System.out.println(ans1);
+				System.out.println(ans2);
 				succeed = false;
 				printArray(arr1);
 				printArray(arr2);

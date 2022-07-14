@@ -3,12 +3,6 @@ package class02;
 public class Code01_Swap {
 	
 	public static void main(String[] args) {
-
-		
-		
-		
-		
-		
 		int a = 16;
 		int b = 603;
 		

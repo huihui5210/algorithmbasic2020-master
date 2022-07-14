@@ -4,8 +4,21 @@ public class Code08_GetMax {
 
 	// 求arr中的最大值
 	public static int getMax(int[] arr) {
-		return process(arr, 0, arr.length - 1);
+		return processMy(arr, 0, arr.length - 1);
 	}
+
+	private static int processMy(int[] arr, int L, int R) {
+		if (L==R){
+			return arr[L];
+		}
+		int mid = L + ((R-L)>>1);
+		int maxL = processMy(arr,L,mid);
+		int maxR = processMy(arr,mid+1,R);
+		return Math.max(maxL,maxR);
+	}
+
+
+
 
 	// arr[L..R]范围上求最大值  L ... R   N
 	public static int process(int[] arr, int L, int R) {
