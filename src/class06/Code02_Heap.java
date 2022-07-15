@@ -125,7 +125,7 @@ public class Code02_Heap {
 	}
 
 	
-	public static class MyComparator implements Comparator<Integer>{
+	 static class MyComparator implements Comparator<Integer>{
 
 		@Override
 		public int compare(Integer o1, Integer o2) {

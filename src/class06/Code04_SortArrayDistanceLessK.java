@@ -5,7 +5,32 @@ import java.util.PriorityQueue;
 //K小
 public class Code04_SortArrayDistanceLessK {
 
+	private static void sortedArrDistanceLessKMy(int[] arr, int k) {
+		if ( k == 0 ){
+			return;
+		}
+		if (arr == null || arr.length == 0){
+			return;
+		}
+		PriorityQueue<Integer> heap = new PriorityQueue<>(k);
+		int index= 0;
+		int[] ans = new int[arr.length] ;
+		for (int i = 0; i< k ; i++){
+			heap.add(arr[i]);
+		}
+		for (int i = k ; i<arr.length ;i++){
+			ans[index++] = heap.poll();
+			heap.add(arr[i]);
+		}
+		for (int i = 0 ; i<k ;i++){
+			ans[index] = heap.poll();
+		}
+		arr = ans;
+		return;
+		}
+
 	public static void sortedArrDistanceLessK(int[] arr, int k) {
+
 		if (k == 0) {
 			return;
 		}
@@ -26,6 +51,8 @@ public class Code04_SortArrayDistanceLessK {
 			arr[i++] = heap.poll();
 		}
 	}
+
+
 
 	// for test
 	public static void comparator(int[] arr, int k) {
@@ -112,7 +139,7 @@ public class Code04_SortArrayDistanceLessK {
 			int[] arr1 = copyArray(arr);
 			int[] arr2 = copyArray(arr);
 			sortedArrDistanceLessK(arr1, k);
-			comparator(arr2, k);
+			sortedArrDistanceLessK(arr2, k);
 			if (!isEqual(arr1, arr2)) {
 				succeed = false;
 				System.out.println("K : " + k);
